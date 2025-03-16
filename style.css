@@ -32,7 +32,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +90,7 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    padding: 10px;
 }
 
 /* Estilos de entrada de texto */
@@ -131,11 +132,11 @@ ul {
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .result-list {
-    margin-top: 15px;
+    margin-top: 5px;
     color: #05DF05;
     font-size: 22px;
     font-weight: bold;
@@ -159,4 +160,15 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+#listaAmigos li {
+    background-color: #111114; /* Color de fondo de los elementos de la lista */
+    margin: 5px 0; /* Espacio entre los elementos de la lista */
+    padding: 5px; /* Relleno dentro de los elementos de la lista */
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: Arial, sans-serif; /* Fuente */
+    color: #5cf516; /* Color del texto */
+    text-align: center;
+    margin-top: 5px;
 }
